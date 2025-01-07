@@ -1,10 +1,10 @@
 import React from 'react';
 import { Button } from 'antd';
+import Users from './users/page';
 
 const Home = () => (
   <div style={{ padding: '20px' }}>
-    <h1>Welcome to My Themed Next.js App!</h1>
-    <Button type="primary">Click Me!</Button>
+    <Users/>
   </div>
 );
 
